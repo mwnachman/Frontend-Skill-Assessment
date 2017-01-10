@@ -1,0 +1,25 @@
+.tag {
+  display: inline-block;
+  color: #fff;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.tag .label {
+  display: inline-block;
+  padding: 8px 12px 8px 8px;
+  opacity: 0.9;
+}
+
+.tag .x {
+  display: inline-block;
+  padding: 8px 12px 8px 12px;
+  opacity: 0.9;
+}
+
+.x-div {
+  display: inline-block;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}

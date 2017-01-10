@@ -1,0 +1,18 @@
+.color-popup {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 75px;
+  border-spacing: 0;
+  box-shadow: 2px 2px 1px grey;
+}
+
+.color-option {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-bottom: -3px;
+  padding: -1px;
+}
+
+

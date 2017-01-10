@@ -1,0 +1,20 @@
+.tag-adder {
+  display: block;
+}
+
+.tag-picker {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.color-picker {
+  display: block;
+  float: left;
+}
+
+.add-tag-button {
+  display: block;
+  float: right
+
+}

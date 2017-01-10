@@ -1,0 +1,10 @@
+.add-tag-button {
+  border-radius: 3px;
+  padding: 12px 22px 12px 22px;
+  background-color: #2D353C;
+  color: #fff;
+}
+
+.add-tag-text {
+  opacity: 0.9;
+}

@@ -1,0 +1,17 @@
+.color-selector {
+  height: 28px;
+  width: 45px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.new-color-text {
+  opacity: 0.9;
+}
+
+
+

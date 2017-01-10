@@ -1,0 +1,26 @@
+.item {
+  display: block;
+  width: 225px;
+  border: 1px solid lightgrey;
+  background-color: #fff;
+  padding: 5px;
+  padding-right: 13px;
+}
+
+.item-color {
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  margin-top: 1px;
+  margin-bottom: -3px;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+} 
+
+.item-label {
+  display: inline-block;
+  position: absolute;
+  padding-top: 5px;
+  padding-left: 8px;
+  color: #62696D;
+}

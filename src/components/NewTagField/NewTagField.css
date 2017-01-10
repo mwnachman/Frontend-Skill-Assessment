@@ -1,0 +1,11 @@
+input {
+  padding: 8px;
+  font-size: 16px;
+  width: 225px;
+  height: 23px;
+}
+
+input::placeholder {
+  opacity: 0.5;
+  font-size: 14px;
+}
