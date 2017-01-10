@@ -44,6 +44,9 @@ class TagAdder extends Component {
   }
 
   addTag(label, color) {
+    if (label === null) {
+      label = "";
+    }
     this.props.addTagAction(label, color);
     this.props.resetInput();
     this.setState({tagName: ""})
