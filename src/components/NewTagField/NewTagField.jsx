@@ -25,7 +25,7 @@ class NewTagField extends Component {
           value={this.props.inputText}
           onChange={(e) => this.props.handleInputChange(e)}
           onFocus={() => this.props.toggleDropdown()} 
-          onBlur={() => setTimeout(this.props.toggleDropdown.bind(this), 100)} />
+          onBlur={() => setTimeout(this.props.toggleDropdown.bind(this), 150)} />
       </div>
     );
   }
