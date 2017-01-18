@@ -57,8 +57,7 @@ class TagAdder extends Component {
       <div className="tag-adder">
         <div className="tag-picker">
           <NewTagField handleInputChange={this.handleInputChange.bind(this)}
-            inputText={this.state.tagName}
-          />
+            inputText={this.state.tagName}/>
           <Dropdown />
         </div>
         <div className="color-picker">
