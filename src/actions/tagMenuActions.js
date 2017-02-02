@@ -42,7 +42,6 @@ export const makeTagInput = (label) => {
 };
 
 export const resetInput = () => {
-  console.log('in reset input in actions');
   return {
     type: 'RESET_INPUT'
   }

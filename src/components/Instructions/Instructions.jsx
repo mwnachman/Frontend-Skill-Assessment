@@ -8,24 +8,17 @@ import './Instructions.css'
 function Instructions() {
   return (
     <div className="instructions">
-      <Section title="React Tag Editor Widget">
+      <Section title="React/Redux Tag Editor Widget">
         <p>
-          The following is a fun little widget that can be used to experiment with new technologies while really helping get a full spectrum of all your skills. All the setup should be done and ready to go. All you have to do is dig in and start coding navigate to 'components/TagEditor/TagEditor.jsx' to begin.
+          This is a fun little widget that can be added to your project.
         </p>
         <p>
-          You may use any additional npm modules / components that are not included already to complete the widget.
-        </p>
-
-        <p>
-          React is the only thing you need to use.
-        </p>
-        <p>
-          Additionally redux and react-redux have been included in the package.json to save you the hassle of doing it if you prefer to use redux for state management.
+          It uses Redux to maintain state. 
         </p>
       </Section>
       <Section title="Mockup">
         <p>
-          This is a diagramed mockup of the overall functionality of the The Tag Editor
+          This is a diagramed mockup of the overall functionality of the The Tag Editor.
         </p>
         <div className="mockup">
             <img alt="Mockup" src={TagsSkillsAssesmentMockup}/>
@@ -35,41 +28,38 @@ function Instructions() {
 
       <Section title="Tag List">
         <p>
-          A list of tags that have been added.<br />
+          A list of some tags that have been added.<br />
           A tag is just an object with a label and color.<br /><br />
-          It should be removed from the Tag List when clicking the X.
+          It can be removed from the Tag List when clicking the X.
         </p>
       </Section>
 
       <Section title="New Tag Input">
         <p>
-          It should make a new tag when typing into this input.<br />
-          It should show a list of existing tags when focused.
+          It makes a new tag when typing into this input.<br />
+          It shows a list of existing tags when focused.
         </p>
       </Section>
 
       <Section title="Existing Tags Dropdown">
         <p>
           A Dropdown showing already existing tags that have not been added to the "Tag List". <br /><br />
-          It should populate the input  with the label and it should hide the “Selected Color” when clicked.<br />
           It should add the tag with its existing color to the “Tag List” when clicked.
         </p>
         <p>
-          To get the list of existing tags there is a variable called [tagsJSON]
-          located at the top of the TagsEditor file.
+          The list of existing tags is located in the src/api/tags.json file.
         </p>
       </Section>
 
       <Section title="Selected Color">
         <p>
-          It should open the “Color Picker Popup” when clicked.<br />
-          It should only be visible if the tag doesn’t already exist.<br />
-          It should have a default color of “#0fade9” if no colors were chosen.
+          It opens the “Color Picker Popup” when clicked.<br />
+          For a new tag, you can choose a color from the menu.
         </p>
       </Section>
 
       <Section title="Color Picker Popup">
-        <p>It should update the background-color and "value" of “Selected Color” when clicked</p>
+        <p>It updates the background-color and "value" of “Selected Color” when clicked</p>
         <ul className="section-list">
           <li
             className="section-list-item"
@@ -148,9 +138,8 @@ function Instructions() {
 
       <Section title="Add Tag Button">
         <p>
-          It should add the new tag to the "Tag List" with the color selected from “Selected Color”<br />
-          It should add an existing tag to the "Tag List" with its existing color.
-          It should become an existing tag so that if it is removed it would show up in the “Existing Tag Dropdown”.
+          It adds the new tag to the "Tag List" with the color selected from “Selected Color.”<br />
+          The new tag also becomes an existing tag, so that if it is removed from the "Tag List" it would show up in the “Existing Tag Dropdown”.
         </p>
       </Section>
     </div>

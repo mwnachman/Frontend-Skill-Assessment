@@ -1,13 +1,13 @@
 {
   "tags:": [
     {
-      "label": "Hired",
+      "label": "React/Redux",
       "color": "#00C361"
     }, {
       "label": "Highly Skilled",
       "color": "#FF7A1D"
     }, {
-      "label": "Ruby",
+      "label": "Node.js",
       "color": "#9F0000"
     }, {
       "label": "Javascript",
